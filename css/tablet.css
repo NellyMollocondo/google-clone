@@ -2,6 +2,20 @@ main .main-input {
     width: 530px;
 }
 
-footer {
+main .main-input-container {
     width: 100%;
+}
+
+main .main-input input {
+    width: 500px;
+}
+
+footer ul {
+    flex-wrap: nowrap;
+}
+
+.footer-botom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
